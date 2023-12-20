@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VocabVibe.Model.Difficults">
+    <Position X="1.25" Y="1.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="VocabVibe.Model.Difficults.DifficultFlag" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Model\Difficults.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Difficults.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VocabVibe.Model.Notify">
+    <Position X="6.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAIAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Notify.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VocabVibe.Model.VocabWords">
+    <Position X="1.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAJAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\VocabWords.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VocabVibe.Model.Event.RelayCommand" Collapsed="true">
+    <Position X="1.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAQAAEAEAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Event\RelayCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VocabVibe.ViewModel.ApplicationViewModel">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <AssociationLine Name="SomethingViewModel" Type="VocabVibe.SomethingViewModel">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.059" Y="0.11" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="VocabularyViewModel" Type="VocabVibe.ViewModel.VocabularyViewModel">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.63" Y="0.698" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAgAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\ApplicationViewModel.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="ContentSwitch" />
+      <Property Name="SomethingViewModel" />
+      <Property Name="VocabularyViewModel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="VocabVibe.ViewModel.ContentSwitch">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>AICAgCAAgCAgCAAAAizAABIAAEAQEAABAQAgAQDAgEA=</HashCode>
+      <FileName>ViewModel\ContentSwitch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VocabVibe.SomethingViewModel">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ViewModel\SomethingViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VocabVibe.ViewModel.VocabularyViewModel" Collapsed="true">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>ViewModel\VocabularyViewModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VocabVibe.View.UC.EasyView" Collapsed="true">
+    <Position X="8.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\UC\EasyView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VocabVibe.View.UC.HardView" Collapsed="true">
+    <Position X="10.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\UC\HardView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VocabVibe.View.MainMenuView" Collapsed="true">
+    <Position X="9.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\UC\MainMenuView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VocabVibe.View.UC.MediumView" Collapsed="true">
+    <Position X="12" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\UC\MediumView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VocabVibe.View.ProgressView" Collapsed="true">
+    <Position X="10.25" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\UC\ProgressView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VocabVibe.View.VocabularyView" Collapsed="true">
+    <Position X="12" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\UC\VocabularyView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VocabVibe.View.WordLearnView" Collapsed="true">
+    <Position X="8.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\UC\WordLearnView.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VocabVibe.View.MainWindow" Collapsed="true">
+    <Position X="11" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>View\Window\MainWindow.xaml.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

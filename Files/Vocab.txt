@@ -1,0 +1,6 @@
+english:английский
+close:близкий
+
+strict:строгий
+kind:добрый
+take exams:сдавать экзамены

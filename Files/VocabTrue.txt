@@ -1,0 +1,9 @@
+sad:грустный
+father:отец
+subject:предмет
+lesson:урок
+study:учиться
+my dream:моя мечта
+come true:сбыться
+choose:выбрать
+parents:родители
